@@ -25,9 +25,11 @@ public class HelloWorldController : Controller
         var users = _userRepository.GetAll();
         string jsonString = JsonSerializer.Serialize(users);
 
-     /*    if(jsonString.Length == 0){
-            return NotFound();
-        } */
+        /*
+            if(jsonString.Length == 0){
+                return NotFound();
+            } 
+        */
 
         return jsonString; //Ok(jsonString);
     }
