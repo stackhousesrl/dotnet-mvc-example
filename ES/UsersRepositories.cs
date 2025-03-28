@@ -1,6 +1,6 @@
 namespace MvcMovie.ES;
 
-
+using Microsoft.EntityFrameworkCore;
 using MvcMovie.DataContext;
 using MvcMovie.Models;
 
